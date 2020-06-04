@@ -149,6 +149,7 @@ local function init()
 	-- voicechat battery
 	AutoReplicateConVar("ttt_voice_drain", "int")
 	AutoReplicateConVar("ttt_voice_drain_normal", "int")
+	AutoReplicateConVar("ttt_voice_drain_premium", "int")
 	AutoReplicateConVar("ttt_voice_drain_admin", "int")
 	AutoReplicateConVar("ttt_voice_drain_recharge", "int")
 
