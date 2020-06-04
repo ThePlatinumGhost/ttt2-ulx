@@ -584,10 +584,19 @@ gpvcblst:AddItem(xlib.makecheckbox{
 
 gpvcblst:AddItem(xlib.makeslider{
 	label = "ttt_voice_drain_normal (def. 0.2)",
-	min = 0.1,
+	min = 0.01,
 	max = 1,
-	decimal = 1,
+	decimal = 2,
 	repconvar = "rep_ttt_voice_drain_normal",
+	parent = gpvcblst
+})
+
+gpvcblst:AddItem(xlib.makeslider{
+	label = "ttt_voice_drain_premium (def. 0.05)",
+	min = 0.01,
+	max = 1,
+	decimal = 2,
+	repconvar = "rep_ttt_voice_drain_premium",
 	parent = gpvcblst
 })
 
